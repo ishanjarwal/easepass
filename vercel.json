@@ -15,15 +15,11 @@
             "use": "@vercel/static"
         },
         {
-            "src": "/public",
+            "src": "public/**",
             "use": "@vercel/static"
         }
     ],
     "routes": [
-        {
-            "src": "/public",
-            "dest": "/public"
-        },
         {
             "src": "/(.*)",
             "dest": "/index.html"
